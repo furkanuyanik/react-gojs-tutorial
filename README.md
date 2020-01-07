@@ -131,3 +131,12 @@ class DiagramView extends React.Component {
 
 export default DiagramView;
 ```
+
+## Insert a code Main Component 
+```
+return (
+    <div style={{ width: 1000, height: 1000 }}>
+      <DiagramView />
+    </div>
+);
+```
